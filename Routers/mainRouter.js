@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
 router.use("/auth", authRouter);
 router.use("/users", userRouter);
 router.use("/campaigns", campaignRouter);
-router.use("/ads", adsRouter);
+// router.use("/ads", adsRouter);
 router.use("/analytics", analyticRouter);
 // router.use("/payments", paymentRouter);
 router.use("/tasks", taskRouter);
